@@ -1,0 +1,61 @@
+#pk
+{
+    height: 480px;
+    width: 220px;
+    /* align-self: center; */
+    background-color: #4D3634;
+    margin-left: auto;
+      margin-right: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+}
+body
+{
+    
+    background-color: #EAC086;
+}
+#heading1
+{
+    text-align: center;
+    
+}
+#div1
+{ 
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+ margin-top: 10%;
+    height: 160px;
+
+    background-color:white;  
+}
+
+
+#ss
+{
+    text-align: center;
+}
+#start1,#btnreset,#pause1{
+  background-color: brown;
+}
+#btnreset,#pause1{
+    background-color: rgb(162, 0, 177);
+  }
+
+  #resume1
+  {
+    background-color: yellow;
+
+  }
+#hr1
+{
+    border-top: 1px dotted white;
+    width: 95%;
+    margin-left: 2%;
+}
+#main
+{
+  margin-top: 40%;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}

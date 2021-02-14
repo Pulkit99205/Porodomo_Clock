@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Pomodoro Clock</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link href="style.css" rel="stylesheet">
+        
+ </head>
+ <body> 
+    <audio id="beepAudio"></audio>
+  
+    <div class="container bg-peach" id="pk">
+        <div class="container " id="main">
+        <div id="div1">
+            <h1 id="heading1" style="padding-top: 40px;"></h1>
+        </div>
+        <div class="row">
+                <div class="col-12 text-white "><h2 id="ss">Session 1</h2>
+                <hr id="hr1"></div>
+        </div>
+        <div class="row">
+            <div class="col-6 text-white"><p >Session Time</p>
+                <p id="st20"style="color:#39C0ED">1 min </p>
+            <button onclick="dec()" type="button" id="btn">-</button>
+            <button onclick="inc()"type="button" id="btn2">+</button>
+                        
+            </div>
+            <div class="col-6 text-white"><p>Break Time</p>
+           <p id="bt5"style="color:orange">5 min</p>
+            <button onclick="dec2()" type="button" id="btn3">-</button>
+            <button onclick="inc2()"type="button" id="btn4">+</button>
+        </div>
+        <hr id="hr1">
+        </div>
+              
+
+        <div class="row">
+            <div class="col-6" id="kkmodi">
+                <button onclick="start()" type="button" id="start1">start</button>
+                <button onclick="pause()" type="button" id="pause1">pause</button>
+                <button onclick="resume()" type="button" id="resume1">Resume</button>
+            </div>
+            <div class="col-6">
+                <button onclick="restart()" type="button" id="btnreset">restart</button>
+            </div>
+            </div>
+
+        </div>
+        </div>
+      </body>
+      <script src="count.js"></script>
+
+</html>
+
+
+
+
